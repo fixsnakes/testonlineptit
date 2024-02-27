@@ -1,0 +1,98 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .login-container {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .login-form {
+    background-color: #FFF8F9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2), 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+  }
+
+  h2{
+    color: #333;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  input {
+    width: 80%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+  }
+  
+  button {
+    background-color: #ff2a00;
+    color: #fff;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 60%;
+    font-size: 16px;
+    margin-top: 30px;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  .logoptit{
+    width: 65px; /* Điều chỉnh kích thước theo nhu cầu của bạn */
+    height: 80px;
+  }
+
+
+  a {
+    margin-left: 220px;
+    color: #db5334; /* Chọn màu theo ý muốn của bạn */
+    text-decoration: none; /* Loại bỏ gạch chân mặc định của hyperlink */
+  }
+  
+  a:hover {
+    color: #ff0000; /* Màu khi di chuột qua hyperlink */
+  }
+
+  .remember-forgot {
+    display: flex;
+    justify-content: space-between; /* Khoảng cách bằng 2 đầu ô nhập mật khẩu */
+    align-items: center;
+  }
+  .save{
+    max-width: 500px;
+  }
